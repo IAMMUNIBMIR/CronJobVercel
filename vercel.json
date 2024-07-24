@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "ping_streamlit.py",
+      "src": "CronJob.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "ping_streamlit.py"
+      "dest": "CronJob.py"
     }
   ]
 }
